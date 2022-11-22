@@ -4,7 +4,7 @@ version = "0.1"
 
 
 setup(
-    name="django-uptime",
+    name="django_uptime",
     version=version,
     description="Editable non-cached monitorization path for Django",
     long_description="""

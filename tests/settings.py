@@ -3,7 +3,7 @@ import os
 
 SECRET_KEY = "$%ffv#zpca%a#bdxtl&)&=5k20egnwcwjdg665r-lsr+s5zdw#"  # nosec
 
-APP_NAME = "django-uptime"
+APP_NAME = "django_uptime"
 
 DEBUG = True
 
