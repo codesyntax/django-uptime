@@ -8,6 +8,7 @@ setup(
     version=version,
     description="Editable non-cached monitorization path for Django",
     long_description="""
+    Editable non-cached monitorization path for Django. Standarized path for multiple django project moritorization
     """,
     classifiers=[
         "Programming Language :: Python :: 3",
