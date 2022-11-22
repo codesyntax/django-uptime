@@ -27,4 +27,4 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        python tests/manage.py test
+        python src/django-uptime/tests/manage.py test
