@@ -1,15 +1,18 @@
 from setuptools import setup, find_packages
+from pathlib import Path
 
-version = "0.4"
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
+
+version = "0.3"
 
 
 setup(
     name="django_uptime",
     version=version,
     description="Editable non-cached monitorization path for Django",
-    long_description="""
-    Editable non-cached monitorization path for Django. Standarized path for multiple django project moritorization
-    """,
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     classifiers=[
         "Programming Language :: Python :: 3",
         "Framework :: Django :: 1.11",
