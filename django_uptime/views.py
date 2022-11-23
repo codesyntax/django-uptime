@@ -6,7 +6,7 @@ from django.conf import settings
 
 class IndexView(ListView):
     model = ContentType
-    template_name = "django-uptime/index.html"
+    template_name = "django_uptime/index.html"
 
     def get_queryset(self):
         ct_count = ContentType.objects.all().count()
