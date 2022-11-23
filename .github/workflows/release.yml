@@ -6,17 +6,18 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Upload Python Package
+name: Release
 
 on:
-  release:
-    types: [published]
+  pull_request:
+    types: [closed]
 
 permissions:
   contents: read
 
 jobs:
-  deploy:
+  release:
+    if: contains(github.event.pull_request.labels.*.name, 'Release')
 
     runs-on: ubuntu-latest
 
