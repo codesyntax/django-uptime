@@ -1,4 +1,4 @@
-
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/codesyntax/django-uptime/Django%20CI)
 ![PyPI](https://img.shields.io/pypi/v/django-uptime?color=blue)
 ![GitHub](https://img.shields.io/github/license/codesyntax/django-uptime)
 
