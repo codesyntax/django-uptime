@@ -1,3 +1,7 @@
+
+![PyPI](https://img.shields.io/pypi/v/django-uptime?color=blue)
+![GitHub](https://img.shields.io/github/license/codesyntax/django-uptime)
+
 # django-uptime
 Editable non-cached monitorization path for Django
 
