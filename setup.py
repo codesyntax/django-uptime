@@ -13,6 +13,9 @@ setup(
     classifiers=[
         "Programming Language :: Python :: 3",
         "Framework :: Django :: 1.11",
+        "Framework :: Django :: 2.0",
+        "Framework :: Django :: 3.0",
+        "Framework :: Django :: 4.0",
     ],
     keywords="moritorization,uptime",
     author="Urtzi",
